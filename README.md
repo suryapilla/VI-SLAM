@@ -5,8 +5,11 @@ Implement visual-inertial simultaneous localization and mapping (SLAM) using an 
 (EKF). You are provided with synchronized measurements from an inertial measurement unit (IMU) and
 a stereo camera as well as the intrinsic camera calibration and the extrinsic calibration between the two
 sensors, specifying the transformation from the left camera frame to the IMU frame.
-
-![Alt Text](https://raw.githubusercontent.com/suryapilla/Vision-and-Robotics/VISLAM/robotics/VISLAM/figures/Traj.png)
+- The below figures show the deadreckoning trajectory on left and the updated Extended Kalman Filter with landmarks on right.
+<div style="display: flex; justify-content: center;">
+  <img src="./images/Traj_10.png" width="400" alt="Traj" style="margin-right: 20px;">
+  <img src="./images/Traj_feat_10.png" width="400" alt="Traj and features">
+</div>
 
 ## 
 
