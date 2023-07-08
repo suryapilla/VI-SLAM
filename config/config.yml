@@ -1,0 +1,3 @@
+DATASET: 10
+DATASET_PATH: "./data/"
+FIGURES_PATH: "./figures/"
